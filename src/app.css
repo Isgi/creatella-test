@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+}
+
+.App-content {
+  margin-top: 70px;
+  height: 90vh;
+  overflow-y: auto ;
+}
+
+.App-loader {
+  animation: App-loader-spin infinite 20s linear;
+  height: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.App-end-message {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes App-loader-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
