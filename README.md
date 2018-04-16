@@ -1,6 +1,6 @@
-#Creatella Test
+# Creatella Test
 
-##Get Started
+## Get Started
 ```
 npm install
 npm run start
